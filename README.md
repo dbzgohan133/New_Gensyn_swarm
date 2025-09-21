@@ -82,8 +82,8 @@ source .venv/bin/activate
 ```
 
 # Ensure your local code is clean and up-to-date with the main branch
-```
 # Clean and update repository (consolidated)
+```
 git switch main && git reset --hard && git clean -fd && git pull origin main
 ```
 
